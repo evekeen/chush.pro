@@ -1,0 +1,14 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "The Bro's Word | Слово Пацана"
+subtitle: |
+  A voice-over english translation of the Russian TV Show "Слово Пацана" (The Bro's Word | The Boy's Word)
+content : |
+  A proper look at the Russian show through the narrative of a Russian-American speaker. It has a unique feel because of the Russian accept, which brings the viewer one step closer to the action.
+button:
+  label : "Support the translation"
+  link : "https://www.buymeacoffee.com/chushpan"
+image : "images/background_15x.jpeg"
+
+first:
+  title: "The first episode"

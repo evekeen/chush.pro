@@ -1,0 +1,46 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+title = "Boston Film Club"
+copyright = "{year}"
+theme = "hugo-story"
+
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
+
+relativeURLs = "true"
+#canonifyURLs = "true"
+
+# Local
+baseURL = "/"
+publishDir = "public"
+
+# Remote
+#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
+#publishDir = "//centos/sites/hugodev/hugostory/"
+
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# googleAnalytics = "your-google-analytics-id"
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+
+[Params]
+description = "We watch good films together outdoors in Boston. After the movie we have a discussion."
+logo = "images/bfc-logo.jpg"
+favicon = true
+title='Boston Film Club'
+author="Alexander Ivkin"
+images = ["images/bfc-logo.jpg"]
+
+[Params.social]
+tiktok = "https://www.tiktok.com/@chushpan594"

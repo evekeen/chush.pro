@@ -1,0 +1,22 @@
+<!-- Banner -->
+<section class="banner {{ .style }}">
+    <div class="content">
+        {{ with .title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .button }}<ul class="actions stacked">
+            <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a></li>
+        </ul>{{ end }}
+    </div>
+    {{ with .image }}<div class="image">
+        <img src="{{.}}" alt="Bro's Word | Слово Пацана" />
+    </div>{{end}}
+</section>
+
+<section class="banner {{ .style }}">
+    <div class="content">
+        {{ with .first.title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .first.subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
+        <iframe src="https://drive.google.com/file/d/1BRnneJLwSRy_R8HQz0nj2-qHCDjNR9hM/preview" width="640" height="480" allow="autoplay"></iframe>
+    </div>
+</section>
