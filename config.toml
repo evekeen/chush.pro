@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-title = "Boston Film Club"
+title = "Bro's Word | Слово Пацана - in English"
 copyright = "{year}"
 theme = "hugo-story"
 
@@ -35,10 +35,10 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 
 
 [Params]
-description = "We watch good films together outdoors in Boston. After the movie we have a discussion."
+description = "Слово Пацана in Engllish"
 logo = "images/bfc-logo.jpg"
 favicon = true
-title='Boston Film Club'
+title="Bro's Word"
 author="Alexander Ivkin"
 images = ["images/bfc-logo.jpg"]
 
